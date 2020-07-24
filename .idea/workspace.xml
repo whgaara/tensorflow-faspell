@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77e5c898-a83a-4917-8728-6bb9716797c5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eAFSybnG7yFOGr6fM1bQ61rokR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model/fine-tuned" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.faspell_wh">
+    <configuration name="create_tf_record" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FASPell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bert_modified" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bert_modified/create_tf_record.py" />
+      <option name="PARAMETERS" value="--input_file correct.txt --wrong_input_file wrong.txt --output_file tf_examples.tfrecord --vocab_file ../model/pre-trained/vocab.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="faspell" type="PythonConfigurationType" factoryName="Python">
+      <module name="FASPell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faspell.py" />
+      <option name="PARAMETERS" value="-m s 中锅人民" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="faspell_wh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FASPell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faspell_wh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gen_char_meta" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FASPell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/gen_char_meta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in CharFuncs (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="FASPell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/char_sim.py" />
+      <option name="CLASS_NAME" value="CharFuncs" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in CharFuncs" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="FASPell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/char_sim.py" />
+      <option name="CLASS_NAME" value="CharFuncs" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.faspell" />
+      <item itemvalue="Python.faspell_wh" />
+      <item itemvalue="Python.gen_char_meta" />
+      <item itemvalue="Python.create_tf_record" />
+      <item itemvalue="Python tests.Doctests in CharFuncs (1)" />
+      <item itemvalue="Python tests.Doctests in CharFuncs" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.faspell_wh" />
+        <item itemvalue="Python.create_tf_record" />
+        <item itemvalue="Python tests.Doctests in CharFuncs" />
+        <item itemvalue="Python.gen_char_meta" />
+        <item itemvalue="Python tests.Doctests in CharFuncs (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77e5c898-a83a-4917-8728-6bb9716797c5" name="Default Changelist" comment="" />
+      <created>1592293140450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592293140450</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_CharFuncs - 2020.06.27 at 20h 42m 58s.xml">
+      <configuration name="Doctests in CharFuncs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_CharFuncs - 2020.06.27 at 20h 43m 09s.xml">
+      <configuration name="Doctests in CharFuncs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_CharFuncs_(1) - 2020.07.01 at 19h 01m 06s.xml">
+      <configuration name="Doctests in CharFuncs (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_CharFuncs - 2020.07.01 at 20h 05m 46s.xml">
+      <configuration name="Doctests in CharFuncs" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="575" y="292" key="#Notifications" timestamp="1594731246920">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="575" y="292" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1594731246920" />
+    <state x="0" y="0" width="1440" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594171396994">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" width="1440" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1594171396994" />
+    <state width="1414" height="340" key="GridCell.Tab.0.bottom" timestamp="1595572826576">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1654" height="420" key="GridCell.Tab.0.bottom/-1024.106.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1595501900054" />
+    <state width="1414" height="340" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595572826576" />
+    <state width="1414" height="209" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1594367431675" />
+    <state width="1414" height="191" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594187266903" />
+    <state width="1414" height="340" key="GridCell.Tab.0.center" timestamp="1595572826573">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1654" height="420" key="GridCell.Tab.0.center/-1024.106.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1595501900052" />
+    <state width="1414" height="340" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595572826573" />
+    <state width="1414" height="209" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1594367431674" />
+    <state width="1414" height="191" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1594187266903" />
+    <state width="1414" height="340" key="GridCell.Tab.0.left" timestamp="1595572826572">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1654" height="420" key="GridCell.Tab.0.left/-1024.106.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1595501900051" />
+    <state width="1414" height="340" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595572826572" />
+    <state width="1414" height="209" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1594367431673" />
+    <state width="1414" height="191" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1594187266902" />
+    <state width="1414" height="340" key="GridCell.Tab.0.right" timestamp="1595572826575">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1654" height="420" key="GridCell.Tab.0.right/-1024.106.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1595501900053" />
+    <state width="1414" height="340" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595572826575" />
+    <state width="1414" height="209" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1594367431674" />
+    <state width="1414" height="191" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1594187266903" />
+    <state width="1414" height="279" key="GridCell.Tab.1.bottom" timestamp="1595572060703">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1654" height="420" key="GridCell.Tab.1.bottom/-1024.106.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1595501910666" />
+    <state width="1414" height="279" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595572060703" />
+    <state width="1414" height="209" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1594367431677" />
+    <state width="1414" height="191" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594187270302" />
+    <state width="1414" height="279" key="GridCell.Tab.1.center" timestamp="1595572060702">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1654" height="420" key="GridCell.Tab.1.center/-1024.106.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1595501910664" />
+    <state width="1414" height="279" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1595572060702" />
+    <state width="1414" height="209" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1594367431677" />
+    <state width="1414" height="191" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1594187270301" />
+    <state width="1414" height="279" key="GridCell.Tab.1.left" timestamp="1595572060701">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1654" height="420" key="GridCell.Tab.1.left/-1024.106.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1595501910663" />
+    <state width="1414" height="279" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1595572060701" />
+    <state width="1414" height="209" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1594367431675" />
+    <state width="1414" height="191" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1594187270300" />
+    <state width="1414" height="279" key="GridCell.Tab.1.right" timestamp="1595572060703">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1654" height="420" key="GridCell.Tab.1.right/-1024.106.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1595501910665" />
+    <state width="1414" height="279" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1595572060703" />
+    <state width="1414" height="209" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1594367431677" />
+    <state width="1414" height="191" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1594187270301" />
+    <state x="97" y="3" key="SettingsEditor" timestamp="1594205196647">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1594205196647" />
+    <state x="301" y="0" width="838" height="1122" key="search.everywhere.popup" timestamp="1595572591132">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="0" width="838" height="1122" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1595572591132" />
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1594197463767" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bert_modified/create_tf_record.py</url>
+          <line>200</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/masked_lm.py</url>
+          <line>397</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/masked_lm.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>transform</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>
